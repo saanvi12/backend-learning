@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Submit page</title>
+</head>
+
+<body>
+    <big><big><i style="color: blue;">Thank you, your response has been recorded!</i></big>
+        <br>
+        <br>
+
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>Zip Code</th>
+                <th>Province</th>
+                <th>Residential address</th>
+                <th>Country</th>
+                <th>Nationality</th>
+            </tr>
+
+            <tr>
+                <td>{{ datas["Name"] }}</td>
+                <td>{{ datas['Age'] }}</td>
+                <td>{{ datas['Gender'] }}</td>
+                <td>{{ datas['Email'] }}</td>
+                <td>{{ datas['Resaddr'] }}</td>
+                <td>{{ datas['City'] }}</td>
+                <td>{{ datas['Prov'] }}</td>
+                <td>{{ datas['Zip'] }}</td>
+                <td>{{ datas['Country'] }}</td>
+                <td>{{ datas['Nation'] }}</td>
+            </tr>
+
+        </table>
+
+
+
+
+        <button><a href="/">Back</a></button>
+</body>
+
+</html>

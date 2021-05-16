@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>HTML form</title>
+</Head>
+
+<body>
+    <form method="POST" action="/submit">
+        <table align="center">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter Your Name" name="name" id="name" required></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" placeholder="Enter Your age here" name="age" id="age" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select name='gender'>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr></tr>
+            <td>Email address</td>
+            <td><input type="email" placeholder="blank@gmail.com" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td>Residential address</td>
+                <td><input type="text" placeholder="Enter Your address here" name="raddr" id="raddr" required></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" placeholder="Enter Your city here" name="city" id="city" required></td>
+            </tr>
+            <tr>
+                <td>Province</td>
+                <td>
+                    <select name='prov'>
+                        <option value="Ontario">Ontario</option>
+                        <option value="Quebec">Quebec</option>
+                        <option value="British Columbia">British Columbiaon</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip code</td>
+                <td><input type="text" placeholder="Enter Your zip code here" name="zip" id="zip" required></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input type="text" placeholder="Enter Your country here" name="country" id="country" required></td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td><input type="text" placeholder="Enter Your nationality here" name="nation" id="nation" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" value="submit">SUBMIT!!!!</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

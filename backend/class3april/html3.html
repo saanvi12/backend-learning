@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>3</title>
+
+    <script>
+        var gvalue = 1;
+        function abc() {
+            var progressExample = document.getElementById('progress-javascript-example');
+            setInterval(function () {
+                if (gvalue < 100) {
+                    gvalue++;
+                    progressExample.value = gvalue;
+                }
+                abc();
+            }, 1000);
+        }
+        var c = document.getElementById("myCanvas");
+        var cctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 200, 100);
+    </script>
+</head>
+
+<body>
+    <center><big><big>
+                <P style="color: rgb(2, 41, 4);">This is file3. </P>
+            </big></big></center>
+    <table border="5" align="center" style="padding: 10px;">
+        <tr>
+            <th style="padding: 5px;">Name</th>
+            <th style="padding: 5px;">Email address</th>
+            <th style="padding: 5px;">Password</th>
+        </tr>
+        <tr>
+            <td style="padding: 5px;">Saanvi Mogla</td>
+            <td style="padding: 5px;">saanvi.mogla@gmail.com</td>
+            <td style="padding: 5px;">***********</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px;">John Doe</td>
+            <td style="padding: 5px;">johndoe123@yahoo.com</td>
+            <td style="padding: 5px;">*******</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <a href="html1.html">Click here for file 1</a>
+    <a href="html2.html">Click here for file 2</a>
+    <hr>
+    <ruby>
+        大哥<rt>Big Brother</rt>
+    </ruby>
+
+    <hr>
+    <progress style="color: blueviolet" id="progress-javascript-example" min="1" max="100"></progress>
+    <br /><br />
+    <button onclick="abc()">click me</button>
+
+    <canvas id="myCanvas" width="250" height="150" style="border:1px solid #c3c3c3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+</body>
+
+</html>
